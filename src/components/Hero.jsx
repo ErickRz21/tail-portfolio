@@ -1,11 +1,11 @@
 import React from 'react'
-import heroimage from '../assets/profilepic7.png'
+import heroimage from '../assets/drawofMe.jpg'
 import {TypeAnimation } from "react-type-animation"
 
 const Hero = () => {
   return (
     <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] mx-auto py-8 bg-black'>
-        <div className='col-span-1 my-auto mx-auto'>
+        <div className='col-span-1 my-auto mx-auto relative rounded-full overflow-hidden hover:scale-110 transition-transform'>
                 <img src={heroimage} alt=""/>
         </div>
         <div className='col-span-2 px-5'>
@@ -19,8 +19,10 @@ const Hero = () => {
                             1000,
                             "Webdesigner",
                             1000,
-                            "Consultant",
+                            "Backend Dev",
                             1000,
+                            "Student",
+                            1000
                     ]}
                     wrapper='span'
                     speed={50}

@@ -68,7 +68,7 @@ const Work = () => {
             </div>
 
             <div className='transform transition-tranform duration-500 hover:scale-105 overflow-hidden
-                            shadow-lg shadow-[#040c16] group container rounded-3xl flex justify-center items-center
+                            shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
                             h-[200px] bg-cover relative'>
                 <img src={proj4} alt="" />
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col 

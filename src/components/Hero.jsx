@@ -4,9 +4,9 @@ import {TypeAnimation } from "react-type-animation"
 
 const Hero = () => {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] mx-auto py-8 bg-black'>
-        <div className='col-span-1 my-auto mx-auto relative rounded-full overflow-hidden hover:scale-110 transition-transform'>
-                <img src={heroimage} alt=""/>
+    <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] mx-auto py-8 bg-black place-items-center'>
+        <div className='col-span-1 sm:col-span-1 my-auto mx-auto relative rounded-full overflow-hidden hover:scale-110 transition-transform'>
+                <img src={heroimage} alt="" style={{ maxWidth: '400px' }}/>
         </div>
         <div className='col-span-2 px-5'>
             <h1 className='text-white text-4xl sm:text-5xl lg:text-8xl font-extrabold'>
@@ -39,7 +39,7 @@ const Hero = () => {
                      from-blue-500 to-pink-500 text-white hover:text-black ease-in duration-200'>
                         Download CV
                     </a>
-                    <a href='#contact' className='px-6 py-3 w-full rounded-xl border-2 font-medium border-gray-400 hover:bg-gradient-to-br 
+                    <a href='#contact' className='px-8 py-3 w-full rounded-xl border-2 font-medium border-gray-400 hover:bg-gradient-to-br 
                      from-blue-500 to-pink-500 text-white hover:border-white hover:text-black ease-in duration-200'>
                         Contact Me
                     </a>

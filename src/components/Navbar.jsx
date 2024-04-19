@@ -20,7 +20,7 @@ const Navbar = () => {
                 <li className='p-6 pl-0 hover:text-white ease-in duration-200 hover:scale-125 transition-transform'><a href="https://www.instagram.com/ericks_ruiz/"><AiFillInstagram size={30} /></a></li>
             </ul>
 
-            <div onClick={handleNav} className='block md:hidden mr-6 p-5 hover:text-white'>
+            <div onClick={handleNav} className='block md:hidden mr-2 p-5 hover:text-white'>
                 {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
 
             <div className={nav ? 'z-10 fixed h-full left-0 top-0 w-[50%] bg-[#202121] ease-in-out duration-500'

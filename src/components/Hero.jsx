@@ -4,9 +4,9 @@ import {TypeAnimation } from "react-type-animation"
 
 const Hero = () => {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] mx-auto py-8 bg-black place-items-center'>
-        <div className='col-span-1 sm:col-span-1 my-auto mx-auto relative rounded-full overflow-hidden hover:scale-110 transition-transform'>
-                <img src={heroimage} alt="" style={{ maxWidth: '400px' }}/>
+    <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] mx-auto py-8 bg-black'>
+        <div className='col-span-1 my-auto mx-auto relative rounded-full overflow-hidden hover:scale-110 transition-transform'>
+                <img src={heroimage} alt="" style={{ width: '100%', maxWidth: '350px' }}/>
         </div>
         <div className='col-span-2 px-5'>
             <h1 className='text-white text-4xl sm:text-5xl lg:text-8xl font-extrabold'>

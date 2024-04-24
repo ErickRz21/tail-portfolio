@@ -31,7 +31,7 @@ const Hero = () => {
             </h1>
 
             <p className='text-white sm:text-lg my-6 lg:text-xl'>
-                My name is John Doe and I have 5+ years of experience in web development and design.
+                My name is Erick Ruiz and I have kind of experience in web development and design.
             </p>
 
             <div className='my-8'>

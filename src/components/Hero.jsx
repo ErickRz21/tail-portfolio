@@ -17,7 +17,7 @@ const Hero = () => {
                     sequence={[
                             "Frontend Dev",
                             1000,
-                            "Webdesigner",
+                            "Web Designer",
                             1000,
                             "Backend Dev",
                             1000,

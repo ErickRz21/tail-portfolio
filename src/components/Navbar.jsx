@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {AiOutlineClose, AiOutlineMenu, AiOutlineGithub, AiFillInstagram} from 'react-icons/ai'
+import {AiOutlineClose, AiOutlineMenu, AiOutlineGithub, AiFillInstagram, AiFillHome, AiFillMail, AiFillInfoCircle} from 'react-icons/ai'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -27,11 +27,11 @@ const Navbar = () => {
              : 'fixed left-[-100%]'}>
                 <h1 className='text-3xl font-bold primary-color m-4 pl-5'>E. Ruiz</h1>
                 <ul className='p-8 text-2xl'>
-                    <li className='p-2 font-medium'><a href='#about'>About</a></li>
-                    <li className='p-2 font-medium'><a href='#work'>Work</a></li>
-                    <li className='p-2 font-medium'><a href='#contact'>Contact</a></li>
-                    <li className='p-2 font-medium'><a href='https://github.com/ErickRz21'>GitHub</a></li>
-                    <li className='p-2 font-medium'><a href='https://www.instagram.com/ericks_ruiz/'>Instagram</a></li>
+                    <li className='p-2 font-medium flex'><AiFillHome size={30} className='mr-5'/><a href='#about'>About</a></li>
+                    <li className='p-2 font-medium flex'><AiFillInfoCircle size={30} className='mr-5'/><a href='#work'>Work</a></li>
+                    <li className='p-2 font-medium flex'><AiFillMail size={30} className='mr-5'/><a href='#contact'>Contact</a></li>
+                    <li className='p-2 font-medium flex'><AiOutlineGithub size={30} className='mr-5'/><a href='https://github.com/ErickRz21'>GitHub</a></li>
+                    <li className='p-2 font-medium flex'><AiFillInstagram size={30} className='mr-5'/><a href='https://www.instagram.com/ericks_ruiz/'>Instagram</a></li>
                 </ul>
             </div>
             </div>

@@ -17,7 +17,7 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
             <div className='transform transition-tranform duration-300 hover:scale-105 overflow-hidden
-                            shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
+                            shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center
                             h-[200px] bg-cover relative'>
                 <img src={proj1} alt="" />
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col 
@@ -34,7 +34,7 @@ const Work = () => {
             </div>
 
             <div className='transform transition-tranform duration-500 hover:scale-105 overflow-hidden
-                            shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
+                            shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center
                             h-[200px] bg-cover relative'>
                 <img src={proj2} alt="" />
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col 
@@ -51,7 +51,7 @@ const Work = () => {
             </div>
 
             <div className='transform transition-tranform duration-500 hover:scale-105 overflow-hidden
-                            shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
+                            shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center
                             h-[200px] bg-cover relative'>
                 <img src={proj3} alt="" />
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col 
@@ -68,7 +68,7 @@ const Work = () => {
             </div>
 
             <div className='transform transition-tranform duration-500 hover:scale-105 overflow-hidden
-                            shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
+                            shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center
                             h-[200px] bg-cover relative'>
                 <img src={proj4} alt="" />
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col 
@@ -85,7 +85,7 @@ const Work = () => {
             </div>
 
             <div className='transform transition-tranform duration-500 hover:scale-105 overflow-hidden
-                            shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
+                            shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center
                             h-[200px] bg-cover relative'>
                 <img src={proj5} alt="" />
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col 
@@ -102,7 +102,7 @@ const Work = () => {
             </div>
 
             <div className='transform transition-tranform duration-500 hover:scale-105 overflow-hidden
-                            shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
+                            shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center
                             h-[200px] bg-cover relative'>
                 <img src={proj6} alt="" />
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col 

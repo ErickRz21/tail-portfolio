@@ -36,11 +36,11 @@ const Hero = () => {
 
             <div className='my-8'>
                     <a href='/' className='px-6 py-3 w-full rounded-xl border-2 font-medium border-gray-400 hover:border-white  mr-4 bg-gradient-to-br
-                     from-blue-500 to-pink-500 text-white hover:text-black ease-in transition duration-500'>
+                     from-blue-500 to-pink-500 text-white hover:text-black ease-in transition duration-300'>
                         Download CV
                     </a>
                     <a href='#contact' className='px-8 py-3 w-full rounded-xl border-2 font-medium border-gray-400 hover:bg-gradient-to-br 
-                     from-blue-500 to-pink-500 text-white hover:border-white hover:text-black transition ease-in duration-500'>
+                     from-blue-500 to-pink-500 text-white hover:border-white hover:text-black transition ease-in duration-300'>
                         Contact Me
                     </a>
             </div>

@@ -7,7 +7,7 @@ import tailwind from '../assets/tailwind.png'
 
 const Skills = () => {
   return (
-    <div className='border-4 rounded-lg border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-6
+    <div className='border-2 rounded-lg border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-6
     place-items-center md:flex md:justify-between md:items-center'>
 
         <h2 className='text-gray-00 text-2xl md:text-4xl font-bold m-5'>

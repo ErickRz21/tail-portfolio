@@ -5,7 +5,7 @@ import {TypeAnimation } from "react-type-animation"
 const Hero = () => {
   return (
     <div className='grid grid-cols-1 sm:grid-cols-3 max-w-[1200px] mx-auto py-8 bg-black'>
-        <div className='col-span-1 my-auto mb-5 mx-auto relative rounded-full overflow-hidden hover:scale-110 transition duration-500 ease-in-out'>
+        <div className='col-span-1 my-auto mb-5 mx-auto relative rounded-full overflow-hidden'>
                 <img src={heroimage} alt="" style={{ width: '100%', maxWidth: '350px' }}/>
         </div>
         <div className='col-span-2 px-5'>

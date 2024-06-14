@@ -13,11 +13,11 @@ const Navbar = () => {
 
             <h1 className='text-3xl font-bold primary-color ml-4 hover:scale-125 transition-transform'>Erick Ruiz</h1>
             <ul className='hidden md:flex'>
-                <li className='p-6 pl-2 hover:text-white ease-in duration-300 font-medium text-lg hover:scale-125 transition-transform'><a href='#about'>About</a></li>
-                <li className='p-6 pl-2 hover:text-white ease-in duration-200 font-medium text-lg hover:scale-125 transition-transform' ><a href='#work'>Work</a></li>
-                <li className='p-6 pl-2 hover:text-white ease-in duration-200 font-medium text-lg hover:scale-125 transition-transform'><a href='#contact'>Contact</a></li>
-                <li className='p-6 pl-2 hover:text-white ease-in duration-200 hover:scale-125 transition-transform'><a href="https://github.com/ErickRz21"><AiOutlineGithub size={30} /></a></li>
-                <li className='p-6 pl-0 hover:text-white ease-in duration-200 hover:scale-125 transition-transform'><a href="https://www.instagram.com/ericks_ruiz/"><AiFillInstagram size={30} /></a></li>
+                <li className='p-6 pl-2 hover:text-white ease-in duration-300 font-medium text-lg hover:scale-125 transition'><a href='#about'>About</a></li>
+                <li className='p-6 pl-2 hover:text-white ease-in duration-200 font-medium text-lg hover:scale-125 transition' ><a href='#work'>Work</a></li>
+                <li className='p-6 pl-2 hover:text-white ease-in duration-200 font-medium text-lg hover:scale-125 transition'><a href='#contact'>Contact</a></li>
+                <li className='p-6 pl-2 hover:text-white ease-in duration-200 hover:scale-125 transition'><a href="https://github.com/ErickRz21"><AiOutlineGithub size={30} /></a></li>
+                <li className='p-6 pl-0 hover:text-white ease-in duration-200 hover:scale-125 transition'><a href="https://www.instagram.com/ericks_ruiz/"><AiFillInstagram size={30} /></a></li>
             </ul>
 
             <div onClick={handleNav} className='block md:hidden mr-2 p-5 hover:text-white'>

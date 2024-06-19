@@ -30,11 +30,11 @@ const Hero = () => {
                 />
             </h1>
 
-            <p className='text-white sm:text-lg my-6 lg:text-xl'>
+            <p className='text-white text-lg my-6 lg:text-xl'>
                 My name is Erick Ruiz and I have kind of experience in web development and design.
             </p>
 
-            <div className='my-11 lg:content lg:text-xl flex text-center sm:text-lg'>
+            <div className='my-11 lg:text-lg lg:text-left text-center md:text-md text-base'>
                     <a href='/' className='px-6 py-3 w-full rounded-xl border-2 font-medium border-gray-400 hover:border-white  mr-4 bg-gradient-to-br
                      from-blue-500 to-pink-500 text-white hover:text-black ease-in transition duration-300'>
                         Download CV

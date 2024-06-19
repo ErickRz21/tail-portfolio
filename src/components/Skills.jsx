@@ -7,8 +7,8 @@ import tailwind from '../assets/tailwind.png'
 
 const Skills = () => {
   return (
-    <div className='border-2 rounded-xl border-gray-700 bg-black text-gray-400 md:h-[150px] sm:max-w-[900px] xl:max-w-[1200px] lg:mx-auto mx-5 grid grid-cols-6
-    place-items-center md:flex md:justify-between md:items-center text-sm'>
+    <div className='border-2 rounded-xl border-gray-700 bg-black text-gray-300 md:h-[150px] sm:max-w-[900px] xl:max-w-[1200px] lg:mx-auto mx-5 grid grid-cols-6
+    place-items-center md:flex md:justify-between md:items-center lg:text-base text-xs'>
 
         <h2 className='text-gray-100 lg:text-4xl md:text-2xl text-lg font-bold m-5'>
             My <br /> Tech <br /> Stack

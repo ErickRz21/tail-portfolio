@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
         <div className='bg-black text-gray-400 max-w-[1200px] mx-auto flex justify-between items-center'>
 
-            <h1 className='text-3xl font-bold primary-color ml-4 hover:scale-125 transition-transform'>Erick Ruiz</h1>
+            <h1 className='text-3xl font-bold primary-color ml-6 hover:scale-125 transition-transform'>Erick Ruiz</h1>
             <ul className='hidden md:flex'>
                 <li className='p-6 pl-2 hover:text-white ease-in duration-300 font-medium text-lg hover:scale-125 transition'><a href='#about'>About</a></li>
                 <li className='p-6 pl-2 hover:text-white ease-in duration-200 font-medium text-lg hover:scale-125 transition' ><a href='#work'>Work</a></li>

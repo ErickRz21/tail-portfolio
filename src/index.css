@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: black;
+  @apply bg-black;
 }
 
 .bg-primary-color {

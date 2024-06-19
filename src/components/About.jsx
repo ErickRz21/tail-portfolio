@@ -16,7 +16,7 @@ const About = () => {
                 </div>
             </div>
 
-            <img className='mx-auto my-auto overflow-hidden py-8 md:py-0 rounded-3xl hover:scale-110 transition ease-in hover:ease-out duration-500 origin-center hover:rotate-3 ' src={aboutImg} width={300} height={300} alt=''/>
+            <img className='mx-auto my-auto overflow-hidden py-8 md:py-0 rounded-3xl hover:scale-110 transition ease-in hover:ease-out duration-500 origin-center hover:rotate-3' src={aboutImg} width={350} height={300} alt=''/>
             
         </div>
     </div>
